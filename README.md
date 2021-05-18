@@ -1,6 +1,6 @@
 # DeformingThings4D dataset
 
-### [Video] | [Paper] 
+## [Video] | [Paper] 
 
 DeformingThings4D is an synthetic dataset containing 1,972 animation sequences 
 spanning 31 categories of humanoids and animals. 
@@ -47,6 +47,10 @@ The dataset is designed to tackle the following tasks using data-driven approach
 * Shape and motion completion, e.g. [[4DComplete]]
 * Learning riggings from observation, e.g. [[Neural Deformation Graph]], [[Neural Parametric Models]]
 * Generic non-rigid reconstruction, e.g. [[DynamicFusion]]
+
+The dataset generalizes well to real-world scans. The following shows real-world scene flow estimation and 4dcomplete results using models that are trained with this dataset.
+
+![Alt text](fig/real-world-res.gif)
 
 ### Download Data
 Currently, we provide the .anime files for all 1972 animations.
