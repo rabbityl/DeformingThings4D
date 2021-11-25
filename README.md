@@ -43,6 +43,7 @@ The screenshots show the animations in the dataset.
 ### Use case of the dataset
 The dataset is designed to tackle the following tasks using data-driven approaches
 * Scene flow estimation, e.g. [[FlowNet3D]]
+* Deformable point cloud matching, e.g.[[4DMatch]]
 * Non-rigid tracking/registration, e.g. [[Neural NonRigid Tracking]],[[Learn2Optimize NonRigid Tracking]]
 * Shape and motion completion, e.g. [[4DComplete]]
 * Learning riggings from observation, e.g. [[Neural Deformation Graph]], [[Neural Parametric Models]]
@@ -68,7 +69,7 @@ If you use DeformingThings4D data or code please cite:
 @article{li20214dcomplete, 
     title={4dcomplete: Non-rigid motion estimation beyond the observable surface.}, 
     author={Yang Li, Hikari Takehara, Takafumi Taketomi, Bo Zheng, and Matthias Nießner},
-    journal={arXiv preprint arXiv:2105.01905},
+    journal={IEEE International Conference on Computer Vision (ICCV)},
     year={2021}
 }
 ```
@@ -81,6 +82,7 @@ If you use DeformingThings4D data or code please cite:
 [DeformingThings4D Terms of Use]: https://docs.google.com/forms/d/e/1FAIpQLSckMLPBO8HB8gJsIXFQHtYVQaTPTdd-rZQzyr9LIIkHA515Sg/viewform
 [Neural NonRigid Tracking]: https://niessnerlab.org/projects/bozic2020nnrt.html
 [Learn2Optimize NonRigid Tracking]: https://niessnerlab.org/projects/li2020learning.html
+[4DMatch]: https://github.com/rabbityl/lepard
 [4DComplete]: https://arxiv.org/abs/2105.01905
 [Neural Deformation Graph]: https://aljazbozic.github.io/neural_deformation_graphs 
 [Neural Parametric Models]: https://pablopalafox.github.io/npms/
