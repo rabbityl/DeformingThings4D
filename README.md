@@ -40,18 +40,7 @@ The screenshots show the animations in the dataset.
 ![Alt text](fig/wall.gif)
 
 
-### Use case of the dataset
-The dataset is designed to tackle the following tasks using data-driven approaches
-* Scene flow estimation, e.g. [[FlowNet3D]]
-* Deformable point cloud matching, e.g.[[4DMatch]]
-* Non-rigid tracking/registration, e.g. [[Neural NonRigid Tracking]],[[Learn2Optimize NonRigid Tracking]]
-* Shape and motion completion, e.g. [[4DComplete]]
-* Learning riggings from observation, e.g. [[Neural Deformation Graph]], [[Neural Parametric Models]]
-* Generic non-rigid reconstruction, e.g. [[DynamicFusion]]
 
-The dataset generalizes well to real-world scans. The following shows real-world scene flow estimation and 4dcomplete results using models that are trained with this dataset.
-
-![Alt text](fig/real-world-res.gif)
 
 ### Download Data
 Currently, we provide the .anime files for all 1972 animations.
@@ -61,6 +50,19 @@ We can also provide blender-generated scene flow & RGBD sequences and volume dat
 You can also generate these data from the .anime files using the [Blender scripts].
 
 
+
+### Use case of the dataset
+The dataset is designed to tackle the following tasks using data-driven approaches
+* Scene flow estimation, 
+* Deformable point cloud matching
+* Non-rigid tracking/registration
+* Shape and motion completion
+* Learning riggings from observation
+* Generic non-rigid reconstruction
+
+The following shows real-world scene flow estimation and 4dcomplete results using models that are trained with this dataset.
+
+![Alt text](fig/real-world-res.gif)
 
 ### Citation
 
@@ -76,20 +78,9 @@ If you use DeformingThings4D data or code please cite:
 [Video]: https://youtu.be/QrSsVoTRpWk
 [Paper]: https://arxiv.org/abs/2105.01905
 [Blender scripts]: code
-[FlowNet3D]: https://arxiv.org/abs/1806.01411 
-[Neural NonRigid Tracking]: http://niessnerlab.org/projects/bozic2020nnrt.html
-[this google form]: https://docs.google.com/forms/d/e/1FAIpQLSckMLPBO8HB8gJsIXFQHtYVQaTPTdd-rZQzyr9LIIkHA515Sg/viewform
-[DeformingThings4D Terms of Use]: https://docs.google.com/forms/d/e/1FAIpQLSckMLPBO8HB8gJsIXFQHtYVQaTPTdd-rZQzyr9LIIkHA515Sg/viewform
-[Neural NonRigid Tracking]: https://niessnerlab.org/projects/bozic2020nnrt.html
-[Learn2Optimize NonRigid Tracking]: https://niessnerlab.org/projects/li2020learning.html
-[4DMatch]: https://github.com/rabbityl/lepard
-[4DComplete]: https://arxiv.org/abs/2105.01905
-[Neural Deformation Graph]: https://aljazbozic.github.io/neural_deformation_graphs 
-[Neural Parametric Models]: https://pablopalafox.github.io/npms/
-[DynamicFusion]: https://grail.cs.washington.edu/projects/dynamicfusion/
 
-### Help
-If you have any questions, please contact us at deformingthings4d@googlegroups.com, or open an issue at Github.	
+
+	
 
 ### License
 The data is released under [DeformingThings4D Terms of Use], and the code is release under a non-comercial creative commons license.
