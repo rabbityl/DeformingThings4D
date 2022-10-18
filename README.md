@@ -78,7 +78,8 @@ If you use DeformingThings4D data or code please cite:
 [Video]: https://youtu.be/QrSsVoTRpWk
 [Paper]: https://arxiv.org/abs/2105.01905
 [Blender scripts]: code
-
+[this google form]: https://docs.google.com/forms/d/e/1FAIpQLSckMLPBO8HB8gJsIXFQHtYVQaTPTdd-rZQzyr9LIIkHA515Sg/viewform
+[DeformingThings4D Terms of Use]: https://docs.google.com/forms/d/e/1FAIpQLSckMLPBO8HB8gJsIXFQHtYVQaTPTdd-rZQzyr9LIIkHA515Sg/viewform
 
 	
 
