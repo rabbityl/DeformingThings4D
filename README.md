@@ -44,7 +44,7 @@ The screenshots show the animations in the dataset.
 
 ### Download Data [google form]
 Currently, we provide the .anime files for all 1972 animations.
-If you would like to download the DeformingThings4D data, please fill out [this google form], and, once accepted, we will send you the link to download the data.
+If you would like to download the DeformingThings4D data, please fill out this [google form], and, once accepted, we will send you the link to download the data.
 
 We can also provide blender-generated scene flow & RGBD sequences and volume data upon request. 
 You can also generate these data from the .anime files using the [Blender scripts].
@@ -78,7 +78,7 @@ If you use DeformingThings4D data or code please cite:
 [Video]: https://youtu.be/QrSsVoTRpWk
 [Paper]: https://arxiv.org/abs/2105.01905
 [Blender scripts]: code
-[this google form]: https://docs.google.com/forms/d/e/1FAIpQLSckMLPBO8HB8gJsIXFQHtYVQaTPTdd-rZQzyr9LIIkHA515Sg/viewform
+[google form]: https://docs.google.com/forms/d/e/1FAIpQLSckMLPBO8HB8gJsIXFQHtYVQaTPTdd-rZQzyr9LIIkHA515Sg/viewform
 [DeformingThings4D Terms of Use]: https://docs.google.com/forms/d/e/1FAIpQLSckMLPBO8HB8gJsIXFQHtYVQaTPTdd-rZQzyr9LIIkHA515Sg/viewform
 
 	
